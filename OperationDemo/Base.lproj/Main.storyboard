@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZg-A0-ErU">
+                                <rect key="frame" x="0.0" y="50" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wt0-O3-YDa"/>
+                                    <constraint firstAttribute="width" constant="114" id="xCe-UY-LXH"/>
+                                </constraints>
+                                <state key="normal" title="Start Car"/>
+                                <connections>
+                                    <action selector="showCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GON-eN-7SR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28T-p4-I7l">
+                                <rect key="frame" x="486" y="50" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="D7r-07-jcY"/>
+                                    <constraint firstAttribute="width" constant="114" id="zYW-hZ-17s"/>
+                                </constraints>
+                                <state key="normal" title="Start Yacht"/>
+                                <connections>
+                                    <action selector="showYacht:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtu-oD-bR1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyl-jM-mSy">
+                                <rect key="frame" x="0.0" y="103" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="DJU-ZO-JM1"/>
+                                    <constraint firstAttribute="height" constant="30" id="TSn-3b-tsP"/>
+                                </constraints>
+                                <state key="normal" title="Start DanMu"/>
+                                <connections>
+                                    <action selector="showDanMu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTv-lN-Rfk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kj-Xg-59e">
+                                <rect key="frame" x="486" y="103" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="uN5-ay-xg6"/>
+                                    <constraint firstAttribute="height" constant="30" id="zJr-dj-Kcm"/>
+                                </constraints>
+                                <state key="normal" title="Start islet"/>
+                                <connections>
+                                    <action selector="showIslet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPb-32-9cB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXB-L0-u7E">
+                                <rect key="frame" x="486" y="163" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FOU-iw-jOQ"/>
+                                    <constraint firstAttribute="width" constant="114" id="Z9c-xi-hsi"/>
+                                </constraints>
+                                <state key="normal" title="Start Caihong"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caihong.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-Xx-Anl">
+                                <rect key="frame" x="60" y="214" width="202" height="96"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PXB-L0-u7E" firstAttribute="top" secondItem="4Kj-Xg-59e" secondAttribute="bottom" constant="30" id="321-hu-rFn"/>
+                            <constraint firstAttribute="trailing" secondItem="28T-p4-I7l" secondAttribute="trailing" id="Amj-Yd-Y7Z"/>
+                            <constraint firstItem="lZg-A0-ErU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="DI8-VW-50L"/>
+                            <constraint firstItem="lZg-A0-ErU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NAy-YK-a5f"/>
+                            <constraint firstItem="28T-p4-I7l" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="Of8-Cs-rLF"/>
+                            <constraint firstAttribute="trailing" secondItem="PXB-L0-u7E" secondAttribute="trailing" id="clh-TX-PHN"/>
+                            <constraint firstAttribute="trailing" secondItem="4Kj-Xg-59e" secondAttribute="trailing" id="o9m-bC-i7T"/>
+                            <constraint firstItem="Xyl-jM-mSy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oKc-d0-KHp"/>
+                            <constraint firstItem="Xyl-jM-mSy" firstAttribute="top" secondItem="lZg-A0-ErU" secondAttribute="bottom" constant="23" id="sCA-5C-i2m"/>
+                            <constraint firstItem="4Kj-Xg-59e" firstAttribute="top" secondItem="Xyl-jM-mSy" secondAttribute="top" id="wUB-ra-XZR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="390"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="caihong.png" width="500" height="300"/>
+    </resources>
+</document>
