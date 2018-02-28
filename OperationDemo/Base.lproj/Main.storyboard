@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,78 +18,93 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZg-A0-ErU">
                                 <rect key="frame" x="0.0" y="50" width="114" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="wt0-O3-YDa"/>
                                     <constraint firstAttribute="width" constant="114" id="xCe-UY-LXH"/>
                                 </constraints>
-                                <state key="normal" title="Start Car"/>
+                                <state key="normal" title="汽车"/>
                                 <connections>
                                     <action selector="showCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GON-eN-7SR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28T-p4-I7l">
-                                <rect key="frame" x="486" y="50" width="114" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="261" y="50" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="D7r-07-jcY"/>
                                     <constraint firstAttribute="width" constant="114" id="zYW-hZ-17s"/>
                                 </constraints>
-                                <state key="normal" title="Start Yacht"/>
+                                <state key="normal" title="游艇"/>
                                 <connections>
                                     <action selector="showYacht:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtu-oD-bR1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyl-jM-mSy">
                                 <rect key="frame" x="0.0" y="103" width="114" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="DJU-ZO-JM1"/>
                                     <constraint firstAttribute="height" constant="30" id="TSn-3b-tsP"/>
                                 </constraints>
-                                <state key="normal" title="Start DanMu"/>
+                                <state key="normal" title="飞机"/>
                                 <connections>
                                     <action selector="showDanMu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTv-lN-Rfk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kj-Xg-59e">
-                                <rect key="frame" x="486" y="103" width="114" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="261" y="103" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="uN5-ay-xg6"/>
                                     <constraint firstAttribute="height" constant="30" id="zJr-dj-Kcm"/>
                                 </constraints>
-                                <state key="normal" title="Start islet"/>
+                                <state key="normal" title="海岛"/>
                                 <connections>
                                     <action selector="showIslet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPb-32-9cB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXB-L0-u7E">
-                                <rect key="frame" x="486" y="163" width="114" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="261" y="163" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FOU-iw-jOQ"/>
                                     <constraint firstAttribute="width" constant="114" id="Z9c-xi-hsi"/>
                                 </constraints>
-                                <state key="normal" title="Start Caihong"/>
+                                <state key="normal" title="烟花"/>
+                                <connections>
+                                    <action selector="yanhua:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ip0-4y-TNX"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caihong.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-Xx-Anl">
-                                <rect key="frame" x="60" y="214" width="202" height="96"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAV-h1-bZF">
+                                <rect key="frame" x="0.0" y="163" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9T5-Pa-H3E"/>
+                                    <constraint firstAttribute="width" constant="114" id="Nc5-f1-dW8"/>
+                                </constraints>
+                                <state key="normal" title="玫瑰"/>
+                                <connections>
+                                    <action selector="rose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IbV-jY-Lal"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PXB-L0-u7E" firstAttribute="top" secondItem="4Kj-Xg-59e" secondAttribute="bottom" constant="30" id="321-hu-rFn"/>
                             <constraint firstAttribute="trailing" secondItem="28T-p4-I7l" secondAttribute="trailing" id="Amj-Yd-Y7Z"/>
                             <constraint firstItem="lZg-A0-ErU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="DI8-VW-50L"/>
                             <constraint firstItem="lZg-A0-ErU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NAy-YK-a5f"/>
                             <constraint firstItem="28T-p4-I7l" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="Of8-Cs-rLF"/>
+                            <constraint firstItem="aAV-h1-bZF" firstAttribute="top" secondItem="PXB-L0-u7E" secondAttribute="top" id="QzH-9e-VnY"/>
+                            <constraint firstItem="aAV-h1-bZF" firstAttribute="top" secondItem="Xyl-jM-mSy" secondAttribute="bottom" constant="30" id="TtA-Nm-0m8"/>
                             <constraint firstAttribute="trailing" secondItem="PXB-L0-u7E" secondAttribute="trailing" id="clh-TX-PHN"/>
+                            <constraint firstItem="aAV-h1-bZF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jGI-aW-9ro"/>
                             <constraint firstAttribute="trailing" secondItem="4Kj-Xg-59e" secondAttribute="trailing" id="o9m-bC-i7T"/>
                             <constraint firstItem="Xyl-jM-mSy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oKc-d0-KHp"/>
                             <constraint firstItem="Xyl-jM-mSy" firstAttribute="top" secondItem="lZg-A0-ErU" secondAttribute="bottom" constant="23" id="sCA-5C-i2m"/>
@@ -98,7 +117,4 @@
             <point key="canvasLocation" x="364" y="390"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="caihong.png" width="500" height="300"/>
-    </resources>
 </document>

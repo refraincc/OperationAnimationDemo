@@ -11,7 +11,7 @@
 #import "ZCYachtAnimationView.h"
 #import "ZCAnimationOperationManager.h"
 #import "ZCAnimationOperation.h"
-#import "ZCIsletAnimationView.h"
+#import "HRIsletAnimationView.h"
 #import "HRRainbowView.h"
 @interface ViewController ()
 
@@ -28,11 +28,6 @@
     [super viewDidLoad];
     
     
-    HRRainbowView *view = [[HRRainbowView alloc]init];
-    view.frame = CGRectMake(10, 300, 200, 200);
-    view.backgroundColor = [UIColor clearColor];
-    
-    [self.view addSubview:view];
     
 }
 - (IBAction)showIslet:(id)sender {
@@ -68,6 +63,22 @@
     mgr.animationContentView = self.view;
     
     [mgr addAirplaneAnim];
+}
+- (IBAction)yanhua:(id)sender {
+    ZCAnimationOperationManager *mgr = [ZCAnimationOperationManager sharedManager];
+    
+    mgr.animationContentView = self.view;
+    
+    [mgr addyanhua];
+    
+}
+- (IBAction)rose:(id)sender {
+    
+    ZCAnimationOperationManager *mgr = [ZCAnimationOperationManager sharedManager];
+    
+    mgr.animationContentView = self.view;
+    
+    [mgr addRose];
 }
 
 @end

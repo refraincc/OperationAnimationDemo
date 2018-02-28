@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="FMm-1L-khe" customClass="HRRoseView">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="eFj-Q4-d0Z">
+                    <frame key="frameInset" minX="72" minY="-13" width="115" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="s8g-Az-Fha">
+                    <frame key="frameInset" minX="96" minY="10" width="116" height="118"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCN-oh-nz2">
+                    <frame key="frameInset" minX="120" minY="-19" width="118" height="129"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="317-rY-wAd">
+                    <frame key="frameInset" minX="149" minY="-19" width="118" height="118"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZWx-Tt-Po8">
+                    <frame key="frameInset" minX="170" minY="-19" width="124" height="129"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gl1-SU-mG2">
+                    <frame key="frameInset" minX="30" minY="-19" width="127" height="123"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="sQe-WJ-bnG">
+                    <frame key="frameInset" minX="10" minY="-5" width="117" height="123"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="a60-5N-AsE">
+                    <frame key="frameInset" minX="-20" minY="20" width="126" height="119"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="DfR-PD-XQz">
+                    <frame key="frameInset" minX="-26" minY="52" width="125" height="113"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="glU-A9-fwv">
+                    <frame key="frameInset" minX="-15" minY="76" width="114" height="136"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="FWN-vP-xiB">
+                    <frame key="frameInset" minX="20" minY="147" width="122" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-xU-jfT">
+                    <frame key="frameInset" minX="35" minY="180" width="118" height="98"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="lr8-fv-ZLa">
+                    <frame key="frameInset" minX="60" minY="190" width="119" height="112"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="sEH-Q9-B3Q">
+                    <frame key="frameInset" minX="80" minY="210" width="117" height="109"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-9l-CZC">
+                    <frame key="frameInset" minX="195" width="123" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-OE-RZy">
+                    <frame key="frameInset" minX="215" minY="28" width="120" height="119"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="B7o-7S-X5n">
+                    <frame key="frameInset" minX="215" minY="76" width="111" height="136"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBC-gl-DW1">
+                    <frame key="frameInset" minX="180" minY="140" width="123" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lg1-Vq-bFT">
+                    <frame key="frameInset" minX="155" minY="161" width="128" height="129"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="SqG-ZU-7dO">
+                    <frame key="frameInset" minX="145" minY="190" width="110" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="wjE-tq-Jja">
+                    <frame key="frameInset" minX="110" minY="225" width="104" height="112"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="kAT-fe-3yt">
+                    <frame key="frameInset" minX="215" minY="60" width="135" height="115"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="hz1-Bc-caa">
+                    <frame key="frameInset" minX="120" minY="210" width="118" height="112"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="kAB-RA-T9J">
+                    <frame key="frameInset" minX="200" minY="108" width="115" height="127"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose.png" translatesAutoresizingMaskIntoConstraints="NO" id="fr9-vn-7Ah">
+                    <frame key="frameInset" minX="-10" minY="118" width="134" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="rose1" destination="s8g-Az-Fha" id="aWo-H0-kOG"/>
+                <outlet property="rose10" destination="s6f-xU-jfT" id="k3k-wu-6Ad"/>
+                <outlet property="rose11" destination="lr8-fv-ZLa" id="fSS-77-zUw"/>
+                <outlet property="rose12" destination="sEH-Q9-B3Q" id="vve-Af-eKG"/>
+                <outlet property="rose13" destination="wjE-tq-Jja" id="Nlm-GF-Dun"/>
+                <outlet property="rose14" destination="hz1-Bc-caa" id="mzl-H1-pZx"/>
+                <outlet property="rose15" destination="SqG-ZU-7dO" id="fLK-GX-Dtt"/>
+                <outlet property="rose16" destination="Lg1-Vq-bFT" id="DAp-KD-e7t"/>
+                <outlet property="rose17" destination="jBC-gl-DW1" id="kUT-N1-gsx"/>
+                <outlet property="rose18" destination="kAB-RA-T9J" id="Qhm-A1-PBC"/>
+                <outlet property="rose19" destination="B7o-7S-X5n" id="aAA-Pc-1Ec"/>
+                <outlet property="rose2" destination="eFj-Q4-d0Z" id="wuj-Df-eDa"/>
+                <outlet property="rose20" destination="kAT-fe-3yt" id="A81-KW-VkX"/>
+                <outlet property="rose21" destination="8H7-OE-RZy" id="P5K-GB-j7g"/>
+                <outlet property="rose22" destination="ecG-9l-CZC" id="x9v-3l-gKt"/>
+                <outlet property="rose23" destination="ZWx-Tt-Po8" id="nid-Hl-Lbx"/>
+                <outlet property="rose24" destination="317-rY-wAd" id="8oO-hy-F2R"/>
+                <outlet property="rose25" destination="oCN-oh-nz2" id="Uyw-Hs-dLy"/>
+                <outlet property="rose3" destination="Gl1-SU-mG2" id="BbN-Y2-ETZ"/>
+                <outlet property="rose4" destination="sQe-WJ-bnG" id="v9Q-Oa-QOm"/>
+                <outlet property="rose5" destination="a60-5N-AsE" id="EcP-Oq-tIa"/>
+                <outlet property="rose6" destination="DfR-PD-XQz" id="Ht8-71-0fL"/>
+                <outlet property="rose7" destination="glU-A9-fwv" id="dfJ-ve-W60"/>
+                <outlet property="rose8" destination="fr9-vn-7Ah" id="8IX-BF-5D2"/>
+                <outlet property="rose9" destination="FWN-vP-xiB" id="Ljk-Fe-Q9c"/>
+            </connections>
+            <point key="canvasLocation" x="251" y="-292"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rose.png" width="130" height="130"/>
+    </resources>
+</document>

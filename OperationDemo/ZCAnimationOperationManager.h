@@ -27,4 +27,10 @@
 
 
 - (void)addIsletAnim;
+
+
+- (void)addyanhua;
+
+
+- (void)addRose;
 @end

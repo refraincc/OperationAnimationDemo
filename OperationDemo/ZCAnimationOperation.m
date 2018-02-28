@@ -40,8 +40,16 @@
     op.airplaneView.frame = op.animContentView.bounds;
     
     
-    op.isletAnimationView = [ZCIsletAnimationView isletAniumationView];
+    op.isletAnimationView = [HRIsletAnimationView isletAniumationView];
     op.isletAnimationView.frame = op.animContentView.bounds;
+    
+    
+    op.fireworkAnimationView = [[NSBundle mainBundle] loadNibNamed:@"HRFireworksAniamtionView" owner:nil options:nil].lastObject;
+    op.fireworkAnimationView.frame = op.animContentView.bounds;
+    
+    
+    op.roseAnimationView = [[HRRoseAnimationView alloc]init];
+    op.roseAnimationView.frame = op.animContentView.bounds;
     
     return op;
 }
@@ -62,7 +70,6 @@
         
         ZCAnimationOperationManager *mgr = [ZCAnimationOperationManager sharedManager];
         
-        ZCAnimationOperation *animOp = [mgr.giftsQueueArray firstObject];
         
         if (self.animationType == ZCAnimationTypeCar) {
             
@@ -108,6 +115,36 @@
             }];
             
 
+        }else if (self.animationType == ZCAnimationTypeFire){
+            
+            
+            [self.animContentView addSubview:self.fireworkAnimationView];
+            
+            [self.fireworkAnimationView showAnimationWithComplete:^{
+                self.finished = YES;
+                
+                [self.fireworkAnimationView removeFromSuperview];
+                
+                [mgr.giftsQueueArray removeObject:self];
+            }];
+            
+            
+            
+        }else if (self.animationType == ZCAnimationTypeRose){
+            
+            
+            [self.animContentView addSubview:self.roseAnimationView];
+            
+            [self.roseAnimationView showAnimationWithComplete:^{
+                self.finished = YES;
+                
+                [self.roseAnimationView removeFromSuperview];
+                
+                [mgr.giftsQueueArray removeObject:self];
+            }];
+            
+            
+            
         }
     }];
 }

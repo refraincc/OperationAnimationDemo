@@ -63,11 +63,27 @@
     op.animationType = ZCAnimationTypeAirplane;
     [self.giftQueue addOperation:op];
 }
+
+- (void)addyanhua{
+    
+    ZCAnimationOperation *op = [ZCAnimationOperation animOperationWithContentView:self.animationContentView];
+    op.animContentView = self.animationContentView;
+    op.animationType = ZCAnimationTypeFire;
+    [self.giftQueue addOperation:op];
+}
 - (void)addIsletAnim{
     
     ZCAnimationOperation *op = [ZCAnimationOperation animOperationWithContentView:self.animationContentView];
     op.animContentView = self.animationContentView;
     op.animationType = ZCAnimationTypeIslet;
+    [self.giftQueue addOperation:op];
+}
+
+- (void)addRose{
+    
+    ZCAnimationOperation *op = [ZCAnimationOperation animOperationWithContentView:self.animationContentView];
+    op.animContentView = self.animationContentView;
+    op.animationType = ZCAnimationTypeRose;
     [self.giftQueue addOperation:op];
 }
 

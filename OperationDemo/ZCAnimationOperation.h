@@ -12,13 +12,17 @@
 #import "ZCYachtAnimationView.h"
 #import "ZCDanMuView.h"
 #import "ZCAirplaneAnimationView.h"
-#import "ZCIsletAnimationView.h"
+#import "HRIsletAnimationView.h"
+#import "HRFireworksAniamtionView.h"
+#import "HRRoseAnimationView.h"
 typedef NS_ENUM(NSInteger, ZCAnimationType){
     ZCAnimationTypeCar,
     ZCAnimationTypeYacht,
     ZCAnimationTypeTail,
     ZCAnimationTypeAirplane,
-    ZCAnimationTypeIslet
+    ZCAnimationTypeIslet,
+    ZCAnimationTypeFire,
+    ZCAnimationTypeRose,
 };
 
 
@@ -32,7 +36,11 @@ typedef NS_ENUM(NSInteger, ZCAnimationType){
 
 @property (nonatomic, strong)ZCAirplaneAnimationView *airplaneView;
 
-@property (nonatomic, strong)ZCIsletAnimationView *isletAnimationView;
+@property (nonatomic, strong)HRIsletAnimationView *isletAnimationView;
+
+@property (nonatomic, strong)HRFireworksAniamtionView *fireworkAnimationView;
+
+@property (nonatomic, strong)HRRoseAnimationView *roseAnimationView;
 
 
 @property (nonatomic, assign)ZCAnimationType animationType;

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="47B-5C-hFx" customClass="HRFireworksAniamtionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8a-CM-3RM">
+                    <rect key="frame" x="27.5" y="150" width="320" height="348"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x3_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="KVo-q9-odi">
+                            <rect key="frame" x="60" y="210" width="57" height="129"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y4.png" translatesAutoresizingMaskIntoConstraints="NO" id="yf8-tl-vT2">
+                            <rect key="frame" x="8" y="183" width="90" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x3_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cgf-DR-zdp">
+                            <rect key="frame" x="93" y="136" width="100" height="204"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y4.png" translatesAutoresizingMaskIntoConstraints="NO" id="qfj-Pz-2it">
+                            <rect key="frame" x="82" y="89" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x2_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="zLR-SF-6gN">
+                            <rect key="frame" x="87" y="163" width="80" height="177"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y2.png" translatesAutoresizingMaskIntoConstraints="NO" id="R5C-uD-7Qm">
+                            <rect key="frame" x="67" y="143" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x1_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="dfm-0b-4A7">
+                            <rect key="frame" x="49" y="156" width="111" height="184"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pqw-ea-aqm">
+                            <rect key="frame" x="15" y="106" width="120" height="120"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x3_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="U4A-oa-6gB">
+                            <rect key="frame" x="150" y="223" width="40" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wob-JU-GbG">
+                            <rect key="frame" x="146" y="193" width="80" height="80"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x1_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="sm4-Dk-F0L">
+                            <rect key="frame" x="130" y="195" width="171" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y1.png" translatesAutoresizingMaskIntoConstraints="NO" id="mXm-j1-9s1">
+                            <rect key="frame" x="212" y="156" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x4_00012.png" translatesAutoresizingMaskIntoConstraints="NO" id="GZb-h3-kJq">
+                            <rect key="frame" x="131" y="156" width="102" height="190"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y3.png" translatesAutoresizingMaskIntoConstraints="NO" id="n6Y-wO-Jzd">
+                            <rect key="frame" x="146" y="86" width="140" height="140"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h2_00023.png" translatesAutoresizingMaskIntoConstraints="NO" id="lHl-oK-Ljw">
+                            <rect key="frame" x="74" y="-15" width="200" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h1_00023.png" translatesAutoresizingMaskIntoConstraints="NO" id="oQa-56-Zg7">
+                            <rect key="frame" x="-7" y="-31" width="200" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="U6u-iS-krN"/>
+                        <constraint firstAttribute="height" constant="348" id="UyL-fB-qbb"/>
+                    </constraints>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="开心就好送的超级跑车" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O8-BN-qWU">
+                    <rect key="frame" x="0.0" y="102" width="375" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.90196078430000004" green="0.98431372549999996" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="G8a-CM-3RM" firstAttribute="top" secondItem="47B-5C-hFx" secondAttribute="top" constant="150" id="AQP-0D-WCF"/>
+                <constraint firstItem="G8a-CM-3RM" firstAttribute="centerX" secondItem="47B-5C-hFx" secondAttribute="centerX" id="Dfb-f4-fFe"/>
+            </constraints>
+            <connections>
+                <outlet property="blueFireworkdsImage" destination="R5C-uD-7Qm" id="tpJ-He-ebh"/>
+                <outlet property="bluePath" destination="zLR-SF-6gN" id="Hys-gE-oUv"/>
+                <outlet property="contenView" destination="G8a-CM-3RM" id="wNX-5A-mR4"/>
+                <outlet property="greenFireworks" destination="n6Y-wO-Jzd" id="YPt-bb-lGr"/>
+                <outlet property="greenPath" destination="GZb-h3-kJq" id="MiI-QQ-8do"/>
+                <outlet property="leftHeartImageView" destination="oQa-56-Zg7" id="b9O-E8-26W"/>
+                <outlet property="nickNameLabel" destination="2O8-BN-qWU" id="oIc-w5-Fpd"/>
+                <outlet property="redFireworks1" destination="Pqw-ea-aqm" id="ArL-HB-lDU"/>
+                <outlet property="redFireworks2" destination="mXm-j1-9s1" id="h6r-XM-Kfx"/>
+                <outlet property="redPath1" destination="dfm-0b-4A7" id="Bnk-KQ-9x6"/>
+                <outlet property="redPath2" destination="sm4-Dk-F0L" id="XGF-ED-SRt"/>
+                <outlet property="rightHeartImageView" destination="lHl-oK-Ljw" id="820-Cw-zUU"/>
+                <outlet property="yellowFireworks1" destination="yf8-tl-vT2" id="4el-69-Sjo"/>
+                <outlet property="yellowFireworks2" destination="qfj-Pz-2it" id="p3g-zm-l5E"/>
+                <outlet property="yellowFireworks3" destination="Wob-JU-GbG" id="WTZ-5q-Xod"/>
+                <outlet property="yellowPath1" destination="KVo-q9-odi" id="zzM-IQ-JYE"/>
+                <outlet property="yellowPath2" destination="Cgf-DR-zdp" id="y76-Md-kw1"/>
+                <outlet property="yellowPath3" destination="U4A-oa-6gB" id="Wb2-L5-d6C"/>
+            </connections>
+            <point key="canvasLocation" x="-804" y="38"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="h1_00023.png" width="300" height="300"/>
+        <image name="h2_00023.png" width="300" height="300"/>
+        <image name="x1_00012.png" width="200" height="350"/>
+        <image name="x2_00012.png" width="200" height="350"/>
+        <image name="x3_00012.png" width="200" height="394"/>
+        <image name="x4_00012.png" width="200" height="394"/>
+        <image name="y1.png" width="400" height="400"/>
+        <image name="y2.png" width="400" height="400"/>
+        <image name="y3.png" width="400" height="400"/>
+        <image name="y4.png" width="400" height="400"/>
+    </resources>
+</document>
